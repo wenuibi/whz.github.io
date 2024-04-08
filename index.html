@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>竞赛队</title>
+    <script type="text/javascript" src="js/计算器.js"></script>
+    <script type="text/javascript" src="js/猜字数游.js"></script>
+    <script type="text/javascript" src="js/飞机大战.js"></script>
+    
+<script type= "text/javascript" >
+window.onload= function (){/////window.onload当页面开启时
+fn1();
+fn2();
+}
+
+</script>
+<style>
+    #qqq div{       
+        transform:scale(1.4);
+    }
+    #qqq div span{
+    color: rgb(255, 241, 203);
+    }
+   #q p{
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-bottom: 100%;
+    height: 300%;
+  }
+
+  to {
+    margin-bottom: 0%;
+    height: 100%;
+  }
+
+
+
+}
+
+</style>
+</head>
+<!-- 下面是CSS外联 -->
+
+<link rel="stylesheet" href="css/导航栏.css" type="text/css">
+<link rel="stylesheet" href="css/搜索栏.css" type="text/css">
+<link rel="stylesheet" href="css/头部图片.css" type="text/css">
+<link rel="stylesheet" href="图片/背景.css" type="text/css">
+<link rel="stylesheet" href="css/左侧索引.css" type="text/css">
+<link rel="stylesheet" href="css/右侧动画.css" type="text/css">
+<!-- rel是选择这个link的样式，href是css的地址，type是类型 -->
+
+<body>
+<!-- 头部页眉 -->
+
+<div >
+ 
+ 
+    <div class="dh">
+        <span >深圳市第一职业技术学校 通信与控制系统（高铁）集成与维护</span>
+            <a class="wgn" href="历代成员.html" > 历代成员</a> 
+            
+            <div class="dropdown">工具  
+            <!--  -->
+            <div class="dropdown-content">
+            <a class="xll" onclick="sjyx(),shuiJi()" >猜字游戏</a> 
+            </br \\>
+            <a class="xll" onclick="method1()"  > 计算器</a> 
+            </br \\>
+            <a class="xll" onclick="fn1()"   > 播放器</a> 
+        </br \\>
+        <a class="xll" onclick="fn2()"   > 飞机大战</a> 
+        </div>
+        
+        
+    </div>
+            
+    <div class="sad">竞赛队
+         <div class="sea">
+        <a class="see" target="_blank"href="" >赛项详情</a> 
+        </br \\>
+        <a class="see" target="_blank"href=""   >竞赛精神</a> 
+        </br \\>
+        <a class="see" target="_blank"href=""   > 竞赛守则</a> 
+         </div>
+    </div>
+            <a class="wgn" href="主页.html" > 首页</a>
+          <p > <marquee bgcolor="pink" >与其摆烂，不如背水一战！</marquee></p> 
+        
+
+        </div>
+       
+    <div id="b">
+            <h1> 公告栏 </h1>
+     
+            <h4><a target="_blank" href="表格/高铁2021-2022.xls">　　2022年通信与控制系统(高铁)集成与维护在省赛荣获一项一等奖,一项二等奖</a></h4>
+            <h4><a target="_blank" href="表格/高铁2020-2021.xlsx">　　2021年通信与控制系统(高铁)集成与维护在省赛荣获一项二等奖,一项三等奖</a></h4>
+            <h4><a target="_blank" href="表格/高铁2019-2020.xlsx">　　2020年通信与控制系统(高铁)集成与维护在省赛荣获一项一等奖,一项二等奖</a></h4>
+        <div id="q">
+    
+            <p  onmouseover="ysjx()" onmouseout="znlyd()" >省一</p>
+            <br \>
+          <div id="qqq">  再努力一点就行了
+          </div>    
+        </div>
+
+    </div > 
+     
+<div>
+    <a target="_blank" href="http://127.0.0.1:1880/"><img id="bbqq"src="图片/node.PNG"></a>
+        <a target="_blank" href="https://www.bilibili.com/"><img id="bbq"src="图片/bili.png"></a>
+        <div id="test">
+            <iframe  scrolling="no" frameborder="0" src="播放器/index.html" width="800px" height="300px"></iframe>
+            </div>   
+            <div id="fjdz">
+                <iframe  scrolling="no" frameborder="0" src="飞机大战/飞机大战.html" width="800px" height="800px"></iframe>
+                </div>   
+          
+    </div>
+    
+</div>
+
+
+<script>
+    var a= document.querySelector('#qqq')
+function ysjx(){
+    a.innerHTML = "<div>有<span>手</span>就行</div>"
+}
+
+function znlyd(){
+    a.innerHTML = "再努力一点就行了"
+}
+
+</script>
+
+
+
+
+
+
+
+</body>
+</html>
