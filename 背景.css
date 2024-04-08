@@ -1,0 +1,19 @@
+html {
+    background: url(背景.jpg) no-repeat center fixed; 
+    background-size: cover;
+    z-index: -1;
+    height: 1000px;
+    }
+.rwbz{
+    background: url(壁纸.jpg); 
+    background-size: cover;
+    z-index: -1;
+    align-items: center;
+    justify-content: center;
+display: flex;
+height: 400px;
+width: 230px;
+padding: 0px;
+margin: 0px;
+margin-top: 50px;
+}
